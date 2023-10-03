@@ -5,14 +5,18 @@ The main objective of this project is to showcase web-scraping skills combined w
 What's Inside:
 Deliverable 1: Mars News Scraping
 Objective: Extract the latest Mars news articles' titles and preview texts.
+
 Steps:
+
 Use Splinter to automate the web browsing process to the Mars news site.
 With Beautiful Soup, identify and extract the titles and previews.
 Store each title and preview text pair as dictionaries in a list.
 Optionally, save this data as a JSON file for sharing.
 Deliverable 2: Mars Weather Data Analysis
 Objective: Scrape and analyze Mars weather data.
+
 Steps:
+
 Use Splinter to navigate to the Mars temperature data site.
 Use Beautiful Soup to scrape the HTML table containing weather data.
 Convert this data into a Pandas DataFrame and ensure columns match the website's table headings.
@@ -24,7 +28,9 @@ Martian Days: Calculate the total number of Martian days (sols) present in the d
 Temperature Trends: Identify the coldest and warmest months on Mars based on the average daily minimum temperature. This will be visualized using a bar chart.
 Atmospheric Pressure Trends: Determine which months have the highest and lowest average atmospheric pressures. Results will be depicted in a bar chart.
 Mars vs Earth Year: Estimate the number of Earth days in a Martian year by examining temperature patterns.
+
 Files and Instructions:
+
 Starter Code: Two Jupyter Notebooks named part_1_mars_news.ipynb and part_2_mars_weather.ipynb.
 Instructions:
 For Mars news scraping, open part_1_mars_news.ipynb and follow the steps outlined.
